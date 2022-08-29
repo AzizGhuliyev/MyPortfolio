@@ -92,7 +92,6 @@ header {
   color: yellow;
   padding: 1rem;
 }
-/* ////........About Me........//// */
 
 .about-me {
   background: linear-gradient(62deg, yellow 25%, orangered 100%);
@@ -140,7 +139,6 @@ header {
 .about-content .right-content {
   flex-basis: 45%;
 }
-/* ///.....Skill Bar....../// */
 
 .skills-bar {
   padding: 25px 30px;
@@ -282,7 +280,6 @@ header {
   display: none;
 }
 
-/* ////.....Portfolio......///// */
 
 .portfolio {
   background: linear-gradient(62deg, #ff1f01 0%, #ffc700 100%);
@@ -368,7 +365,6 @@ header {
   color: #f0f0e6;
 }
 
-/* ////.....proj2.....//// */
 .project-2 {
   display: flex;
   justify-content: center;
@@ -439,7 +435,6 @@ header {
   color: #f0f0e6;
 }
 
-/* ////......Contact......///// */
 .contact {
   background: linear-gradient(62deg, yellow 25%, orangered 100%);
   position: relative;
@@ -517,7 +512,6 @@ header {
   margin-top: 7px;
 }
 
-/* ////......Media query......//// */
 
 @media (max-width: 500px) {
   html {
