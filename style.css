@@ -115,7 +115,7 @@ header {
   font-size: 20px;
   color: #ff4500;
   padding: 15px 32px;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   text-align: center;
 }
 
@@ -250,7 +250,7 @@ header {
 .navbar.solid .navbar-name {
   display: inline-block;
   color: #ff4500;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 25px;
   transition: color 1s ease 0s;
 }
@@ -279,7 +279,6 @@ header {
   color: #ff4500;
   display: none;
 }
-
 
 .portfolio {
   background: linear-gradient(62deg, #ff1f01 0%, #ffc700 100%);
@@ -545,7 +544,7 @@ header {
   color: #ff4500;
   padding: 10px;
   transition: 0.3s ease-in-out;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .contact-content a:hover {
   color: #fff;
@@ -579,7 +578,6 @@ header {
   border-radius: 2px;
   margin-top: 7px;
 }
-
 
 @media (max-width: 500px) {
   html {
@@ -631,7 +629,16 @@ header {
     width: 290px;
     margin-bottom: 10px;
   }
-
+  .project-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .project-3 img {
+    height: 230px;
+    width: 290px;
+    margin-bottom: 10px;
+  }
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
@@ -705,7 +712,17 @@ header {
     width: 290px;
     margin-bottom: 10px;
   }
+  .project-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
+  .project-3 img {
+    height: 240px;
+    width: 290px;
+    margin-bottom: 10px;
+  }
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
