@@ -434,7 +434,75 @@ header {
 .project-2 .project2-details button:hover .fas {
   color: #f0f0e6;
 }
+.project-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 52px;
+}
 
+.project-3 img {
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
+  margin-right: 25px;
+}
+
+.project-3 .project3-details {
+  width: 32rem;
+}
+.project-3 .project3-details i {
+  font-size: 25px;
+}
+.fa-bootstrap {
+  color: #800080;
+}
+.fa-js {
+  color: #ffff00;
+}
+.project-3 .project3-details h2 {
+  font-size: 27px;
+  color: #ffff00;
+}
+
+.project-3 .project3-details p {
+  font-size: 19px;
+  color: #ffff00;
+  font-weight: 600;
+}
+.project-3 .project3-details button {
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  border: 2px solid #ff4500;
+  border-radius: 10px;
+}
+
+.project-3 .project3-details button a {
+  text-decoration: none;
+  color: #ff4500;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.project-3 .project3-details button .fas {
+  font-size: 10px;
+  padding: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.project-3 .project3-details button:hover {
+  background: #ff4500;
+}
+
+.project-3 .project3-details button:hover a,
+.project-3 .project3-details button:hover .fas {
+  color: #f0f0e6;
+}
 .contact {
   background: linear-gradient(62deg, #ffff00 25%, #ff4500 100%);
   position: relative;
